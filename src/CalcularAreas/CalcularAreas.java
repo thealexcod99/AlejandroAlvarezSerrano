@@ -21,5 +21,9 @@ public class CalcularAreas {
 		return base * altura;
 	}
 	
+	public static double areaTrapecio( int base1, int base2, int altura ) {
+		return altura * ((base1 + base2) / 2.0);
+	}
+	
 	
 }

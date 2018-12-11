@@ -16,9 +16,9 @@ public class TestCalcularAreas {
 		else if (opcion == 2) {
 			System.out.println(CalcularAreas.areaRectangulo(sc.nextInt(), sc.nextInt()));
 		}
-//		else if (opcion == 2) {
-//			System.out.println(CalcularAreas.areaRectangulo(sc.nextInt(), sc.nextInt()));
-//		}
+		else if (opcion == 3) {
+			System.out.println(CalcularAreas.areaTrapecio(sc.nextInt(), sc.nextInt(), sc.nextInt()));
+		}
 		else if (opcion == 4) {
 			System.exit(1);
 		}
