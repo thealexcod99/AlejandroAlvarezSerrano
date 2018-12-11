@@ -78,6 +78,6 @@ public class TestCalcularAreas {
 			}
 		}
 		sc.close();
+		System.exit(3);
 	}
-
 }
