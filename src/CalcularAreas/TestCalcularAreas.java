@@ -13,6 +13,15 @@ public class TestCalcularAreas {
 		if (opcion == 1) {
 			System.out.println(CalcularAreas.areaTriangulo(sc.nextInt(), sc.nextInt()));
 		}
+		else if (opcion == 2) {
+			System.out.println(CalcularAreas.areaRectangulo(sc.nextInt(), sc.nextInt()));
+		}
+//		else if (opcion == 2) {
+//			System.out.println(CalcularAreas.areaRectangulo(sc.nextInt(), sc.nextInt()));
+//		}
+		else if (opcion == 4) {
+			System.exit(1);
+		}
 
 	}
 

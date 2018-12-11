@@ -17,5 +17,9 @@ public class CalcularAreas {
 		return base * altura / 2.0;
 	}
 	
+	public static int areaRectangulo( int base, int altura ) {
+		return base * altura;
+	}
+	
 	
 }
